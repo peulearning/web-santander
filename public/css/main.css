@@ -10,7 +10,7 @@ p, span{
     color: #888;
     font-weight: 500;
 }
-img{
+#logo-header{
     margin: 0 0 0 0.7rem;
 }
 #barra{
@@ -43,7 +43,6 @@ footer {
 #nav-footer li a:hover{
     font-weight: 600;
 }
-
 @media (max-width: 900px) {
     img{
         margin: 0;

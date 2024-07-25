@@ -1,7 +1,7 @@
-section img{
+#img-welc-1{
     border-radius: 16px;
 }
-section h2{
+#welc-title-1{
     font-weight: 600;
     margin: 0 0 2rem 0;
 }
@@ -13,4 +13,15 @@ section h2{
     margin: 1rem 0 0 0;
     font-weight: 500;
     font-size: 20px;
+}
+#welc-btn-1:hover{
+    background: #fff;
+    color: #EC1112;
+    border: 1px solid #EC1112;
+}
+.card{
+    margin: 1rem 0 0 1rem;
+}
+.section-2{
+    margin: 3rem 0 0 0;
 }

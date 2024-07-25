@@ -26,7 +26,7 @@
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom shadow">
       <div class="col-md-3 mb-2 mb-md-0">
       <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-        <img src="/imgs/logo.png" alt="" width="120" height="120" class="img-fluid">
+        <img src="/imgs/logo.png" alt="" width="120" height="120" class="img-fluid" id="logo-header">
         <div class="d-flex align-items-center">
             <div id="barra"></div>
             <p class="mb-0 mx-2">Open Academy</p>
