@@ -57,7 +57,7 @@
         <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Quem somos</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Ajuda</a></li>
     </ul>
-    <p class="text-center text-body-secondary">© 2023 Banco Santander (Brasil) S.A. </br> CNPJ: 90.400.888/0001-42
+    <p class="text-center text-body-secondary">© 2024 Banco Santander (Brasil) S.A. </br> CNPJ: 90.400.888/0001-42
     Av. Presidente Juscelino Kubitscheck 2041/2235 – Vila Olímpia – São Paulo/SP.</p>
   </footer>
 
