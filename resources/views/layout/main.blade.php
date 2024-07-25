@@ -36,7 +36,7 @@
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" id="nav-header">
         <li><a href="#" class="nav-link px-2 link-dark">Explore</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Blog</a></li>
+        <li><a href="https://www.santander.com.br/blog" class="nav-link px-2 link-dark">Blog</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">Quem Somos</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">Ajuda</a></li>
       </ul>

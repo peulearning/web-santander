@@ -1,11 +1,12 @@
 #img-welc-1{
     border-radius: 16px;
+    margin: 0 0 0 1rem;
 }
 #welc-title-1{
     font-weight: 600;
     margin: 0 0 2rem 0;
 }
-#welc-btn-1{
+#welc-btn-1,#welc-btn-card,#welc-btn-blog{
     background: #EC1112;
     color: #fff;
     border-radius: 16px;
@@ -21,7 +22,31 @@
 }
 .card{
     margin: 1rem 0 0 1rem;
+    padding: 0 0 1.5rem 0;
 }
 .section-2{
-    margin: 3rem 0 0 0;
+    margin: 6rem 0 0 0;
+}
+#welc-btn-card{
+    margin: 0 0 0 5rem;
+}
+#welc-btn-card:hover{
+    background: #fff;
+    color: #EC1112;
+    border: 1px solid #EC1112;
+}
+#welc-btn-blog{
+    margin: 0;
+}
+#welc-btn-blog:hover{
+    background: #fff;
+    color: #EC1112;
+    border: 1px solid #EC1112;
+}
+#welc-btn-faq:hover{
+    font-weight: 600;
+}
+#welc-btn-faq:active{
+    font-weight: 600;
+    border: 0;
 }

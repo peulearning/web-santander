@@ -20,38 +20,164 @@
 </section>
 
 <section class="section-2">
-  <h2 class="text-center">Nossos cursos mais populares</h2>
+  <h1 class="text-center display-4 fw-bold text-body-emphasis">Nossos cursos mais populares</h1>
   <p class="text-center">Veja nossos cursos com mais alunos matriculados.</p>
-<div class="row row-cols-1 row-cols-md-3 g-4 w-100 justify-content-center">
-  <div class="col">
-    <div class="card h-100">
-      <img src="/imgs/img-course.jpg" class="card-img-top" alt="..." >
-      <div class="card-body">
-        <h5 class="card-title">Curso 1</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+  <div class="row row-cols-1 row-cols-md-3 g-4 w-100 justify-content-center align-items-center">
+    <div class="col">
+      <div class="card h-100">
+        <img src="/imgs/img-course.jpg" class="card-img-top" alt="..." >
+        <div class="card-body">
+          <h5 class="card-title">Curso 1</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+        </div>
+        <button type="button" class="btn w-50" id="welc-btn-card">Inscreva-se</button>
       </div>
     </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="/imgs/img-course.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/imgs/img-course.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Curso 2</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+        </div>
+        <button type="button" class="btn w-50" id="welc-btn-card">Inscreva-se</button>
       </div>
     </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="/imgs/img-course.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Curso 3</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/imgs/img-course.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Curso 3</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+        </div>
+        <button type="button" class="btn w-50" id="welc-btn-card">Inscreva-se</button>
       </div>
     </div>
+    </div>
   </div>
-  </div>
-</div>
 </section>
+<section class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Conheça nosso blog</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class=" mb-4">Acesse nosso blog e veja nossas postagens.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-lg px-4 me-sm-3" id="welc-btn-blog">Acesse</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="/imgs/img-blog.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+</section>
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Avaliações dos Alunos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">João Silva</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Curso de Programação</h6>
+                            <p class="card-text">Gostei muito do curso! Os professores são excelentes e o conteúdo é muito bem estruturado.</p>
+                            <div class="star-rating">
+                                <span>⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Maria Oliveira</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Curso de Design</h6>
+                            <p class="card-text">A experiência foi incrível! Aprendi muito e me sinto preparada para o mercado de trabalho.</p>
+                            <div class="star-rating">
+                                <span>⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Carlos Mendes</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Curso de Marketing</h6>
+                            <p class="card-text">O curso superou minhas expectativas. Recomendo a todos que querem se especializar na área.</p>
+                            <div class="star-rating">
+                                <span>⭐⭐⭐⭐⭐</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Perguntas Frequentes</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="welc-btn-faq">
+                                O que é a nossa plataforma de cursos?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse-show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Nossa plataforma de cursos oferece uma ampla variedade de cursos online em diferentes áreas de estudo, permitindo que você aprenda no seu próprio ritmo com materiais de alta qualidade e instrutores experientes.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="welc-btn-faq">
+                                Como faço para me inscrever em um curso?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Para se inscrever em um curso, basta criar uma conta na nossa plataforma, escolher o curso de seu interesse e seguir as instruções para pagamento. Após a confirmação, você terá acesso imediato ao conteúdo do curso.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="welc-btn-faq">
+                                Quais são as formas de pagamento aceitas?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Aceitamos várias formas de pagamento, incluindo cartões de crédito, PayPal e transferências bancárias. Certifique-se de verificar todas as opções disponíveis na página de pagamento.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id="welc-btn-faq">
+                                Posso obter um certificado após concluir um curso?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Sim, todos os nossos cursos oferecem certificados de conclusão. Após finalizar todas as aulas e passar nos testes, você poderá baixar seu certificado diretamente da plataforma.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 @endsection
