@@ -72,7 +72,7 @@
 </section>
     <section class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5">Avaliações dos Alunos</h2>
+            <h1 class="text-center mb-5 fw-bold text-body-emphasis">Avaliações dos Alunos</h1>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card shadow-sm">
@@ -115,7 +115,7 @@
 </section>
 <section class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5">Perguntas Frequentes</h2>
+            <h1 class="text-center mb-5 fw-bold text-body-emphasis">Perguntas Frequentes</h1>
             <div class="accordion" id="faqAccordion">
                 <div class="card">
                     <div class="card-header" id="headingOne">
