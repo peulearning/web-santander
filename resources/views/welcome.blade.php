@@ -6,7 +6,7 @@
 
 @section ('content')
 
-<section class="container text-center align-items-center">
+<section class="container text-center align-items-center" id="explore">
   <div class="row align-items-center">
     <div class="col" id="col-welc-1">
         <h2 id="welc-title-1">Conheça nossos cursos!</h2>
@@ -56,7 +56,7 @@
     </div>
   </div>
 </section>
-<section class="px-4 pt-5 my-5 text-center border-bottom">
+<section class="px-4 pt-5 my-5 text-center border-bottom" id="blog">
     <h1 class="display-4 fw-bold text-body-emphasis">Conheça nosso blog</h1>
     <div class="col-lg-6 mx-auto">
       <p class=" mb-4">Acesse nosso blog e veja nossas postagens.</p>
@@ -70,7 +70,7 @@
       </div>
     </div>
 </section>
-    <section class="py-5">
+    <section class="py-5" id="assessments">
         <div class="container">
             <h1 class="text-center mb-5 fw-bold text-body-emphasis">Avaliações dos Alunos</h1>
             <div class="row">
@@ -114,7 +114,7 @@
         </div>
 </section>
 <section class="py-5">
-        <div class="container">
+        <div class="container" id="faq">
             <h1 class="text-center mb-5 fw-bold text-body-emphasis">Perguntas Frequentes</h1>
             <div class="accordion" id="faqAccordion">
                 <div class="card">

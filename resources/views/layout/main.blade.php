@@ -35,10 +35,10 @@
       </div>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" id="nav-header">
-        <li><a href="#" class="nav-link px-2 link-dark">Explore</a></li>
-        <li><a href="https://www.santander.com.br/blog" class="nav-link px-2 link-dark">Blog</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Quem Somos</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Ajuda</a></li>
+        <li><a href="#explore" class="nav-link px-2 link-dark">Explore</a></li>
+        <li><a href="#blog" class="nav-link px-2 link-dark">Blog</a></li>
+        <li><a href="#assessments" class="nav-link px-2 link-dark">Avaliações</a></li>
+        <li><a href="#faq" class="nav-link px-2 link-dark">Ajuda</a></li>
       </ul>
 
       <div class="col-md-3 text-end">
@@ -52,10 +52,10 @@
         @yield('content')
 <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3" id="nav-footer">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Explore</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Blog</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Quem somos</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Ajuda</a></li>
+        <li class="nav-item"><a href="#explore" class="nav-link px-2 text-body-secondary">Explore</a></li>
+        <li class="nav-item"><a href="#blog" class="nav-link px-2 text-body-secondary">Blog</a></li>
+        <li class="nav-item"><a href="#assessments" class="nav-link px-2 text-body-secondary">Avaliações</a></li>
+        <li class="nav-item"><a href="#faq" class="nav-link px-2 text-body-secondary">Ajuda</a></li>
     </ul>
     <p class="text-center text-body-secondary">© 2024 Banco Santander (Brasil) S.A. </br> CNPJ: 90.400.888/0001-42
     Av. Presidente Juscelino Kubitscheck 2041/2235 – Vila Olímpia – São Paulo/SP.</p>
