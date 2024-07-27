@@ -12,3 +12,9 @@ Route::get('/Login', function () {
 Route::get('/Registro', function () {
     return view('registration');
 });
+Route::get('/RecuperarSenha', function () {
+    return view('password-recovery');
+});
+Route::get('/MudancaSenha', function () {
+    return view('password-change');
+});

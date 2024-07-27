@@ -52,7 +52,7 @@
                 <p>Senha ou Email incorreto</p>
             </div>
             <div class="mb-3 align-items-center d-flex border-bottom" id="password-recovery">
-               <p>Esqueceu a senha? <a>Clique aqui</a></p>
+               <p>Esqueceu a senha? <a href="/RecuperarSenha">Clique aqui</a></p>
             </div>
             <div class="justify-content-center d-flex">
             <input type="submit" value="Acessar" class="btn w-50" id="btn-login">
