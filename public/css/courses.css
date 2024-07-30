@@ -1,0 +1,49 @@
+#img-courses-1{
+    border-radius: 16px;
+}
+.btn{
+    border-bottom: 1px solid #eee !important;
+}
+.btn svg:hover{
+    color: #EC1112;
+}
+.form-control {
+    text-indent: 15px;
+    border: none !important;
+    border-radius: 0px;
+    border-bottom: 1px solid #eee !important;
+}
+.form-control:focus{
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0px;
+    border-bottom: 1px solid #EC1112 !important;
+}
+#courses{
+    margin: 5rem 0;
+}
+.input-group{
+    margin: 0.2rem 0 0 0;
+}
+.card button{
+    background: #EC1112;
+    color: #fff;
+    border-radius: 16px;
+    padding: 0.5rem 1rem;
+    margin: 0 0 1rem 1rem;
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid #EC1112 !important;
+}
+.card button:hover{
+    background: #fff;
+    color: #EC1112;
+    border: 1px solid #EC1112 !important;
+}
+#value{
+    color: #EC1112;
+}
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

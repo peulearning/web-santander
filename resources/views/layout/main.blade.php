@@ -23,7 +23,7 @@
 
     </head>
     <body>
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom shadow">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom shadow" id="header">
       <div class="col-md-3 mb-2 mb-md-0">
       <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
         <img src="/imgs/logo.png" alt="" width="120" height="120" class="img-fluid" id="logo-header">
@@ -35,10 +35,10 @@
       </div>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" id="nav-header">
-        <li><a href="#explore" class="nav-link px-2 link-dark">Explore</a></li>
-        <li><a href="#blog" class="nav-link px-2 link-dark">Blog</a></li>
-        <li><a href="#assessments" class="nav-link px-2 link-dark">Avaliações</a></li>
-        <li><a href="#faq" class="nav-link px-2 link-dark">Ajuda</a></li>
+        <li><a href="/" class="nav-link px-2 link-dark">Inicio</a></li>
+        <li><a href="/#blog" class="nav-link px-2 link-dark">Blog</a></li>
+        <li><a href="/#assessments" class="nav-link px-2 link-dark">Avaliações</a></li>
+        <li><a href="/#faq" class="nav-link px-2 link-dark">Ajuda</a></li>
       </ul>
 
       <div class="col-md-3 text-end">
@@ -50,16 +50,21 @@
       </div>
     </header>
         @yield('content')
-<footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3" id="nav-footer">
-        <li class="nav-item"><a href="#explore" class="nav-link px-2 text-body-secondary">Explore</a></li>
-        <li class="nav-item"><a href="#blog" class="nav-link px-2 text-body-secondary">Blog</a></li>
-        <li class="nav-item"><a href="#assessments" class="nav-link px-2 text-body-secondary">Avaliações</a></li>
-        <li class="nav-item"><a href="#faq" class="nav-link px-2 text-body-secondary">Ajuda</a></li>
-    </ul>
-    <p class="text-center text-body-secondary">© 2024 Banco Santander (Brasil) S.A. </br> CNPJ: 90.400.888/0001-42
-    Av. Presidente Juscelino Kubitscheck 2041/2235 – Vila Olímpia – São Paulo/SP.</p>
-  </footer>
+    <a href="#header" class="position-fixed bottom-0 end-0 m-2"><button type="button" class="btn" id="btn-back">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+      </svg>
+    </button></a>
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3" id="nav-footer">
+            <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+            <li class="nav-item"><a href="/#blog" class="nav-link px-2 text-body-secondary">Blog</a></li>
+            <li class="nav-item"><a href="/#assessments" class="nav-link px-2 text-body-secondary">Avaliações</a></li>
+            <li class="nav-item"><a href="/#faq" class="nav-link px-2 text-body-secondary">Ajuda</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Banco Santander (Brasil) S.A. </br> CNPJ: 90.400.888/0001-42
+        Av. Presidente Juscelino Kubitscheck 2041/2235 – Vila Olímpia – São Paulo/SP.</p>
+      </footer>
 
     </body>
 </html>

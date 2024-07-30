@@ -43,6 +43,21 @@ footer {
 #nav-footer li a:hover{
     font-weight: 600;
 }
+#btn-back{
+    background: #EC1112;
+    color: #fff;
+    border-radius: 16px;
+    margin: 0 0.7rem 0 0;
+    padding: 0.5rem;
+    border: 1px solid #EC1112 !important;
+}
+#btn-back svg{
+    margin: 0 0 0.1rem 0;
+}
+#btn-back:hover{
+    background: #fff;
+    color: #EC1112;
+}
 @media (max-width: 900px) {
     img{
         margin: 0;

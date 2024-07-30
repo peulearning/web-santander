@@ -11,7 +11,7 @@
     <div class="col" id="col-welc-1">
         <h2 id="welc-title-1">Conheça nossos cursos!</h2>
         <p class="text-justify">Os cursos do Open Academy Santander são uma excelente oportunidade para quem deseja aprimorar suas habilidades e adquirir novos conhecimentos. Oferecendo uma ampla gama de cursos online gratuitos, a plataforma abrange áreas como tecnologia, finanças, marketing e desenvolvimento pessoal. Com conteúdo atualizado e instrutores renomados, os participantes têm acesso a materiais de alta qualidade e certificação reconhecida. Além disso, a flexibilidade dos cursos permite que cada aluno estude no seu próprio ritmo, adaptando-se às suas necessidades e disponibilidade. O Open Academy Santander é ideal tanto para estudantes quanto para profissionais que buscam se destacar no mercado de trabalho.</p>
-        <button type="button" class="btn" id="welc-btn-1">Quero conhecer</button>
+        <a href="/Cursos"><button type="button" class="btn" id="welc-btn-1">Quero conhecer</button></a>
     </div>
     <div class="col" id="col-wel2">
     <img src="/imgs/img-welc-1.jpg" alt="" class="img-fluid" id="img-welc-1">
@@ -176,11 +176,6 @@
             </div>
         </div>
     </section>
-    <a href="#explore" class="position-fixed bottom-0 end-0 m-2"><button type="button" class="btn" id="btn-back">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
-        </svg>
-    </button></a>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -18,3 +18,6 @@ Route::get('/RecuperarSenha', function () {
 Route::get('/MudancaSenha', function () {
     return view('password-change');
 });
+Route::get('/Cursos', function () {
+    return view('courses');
+});
