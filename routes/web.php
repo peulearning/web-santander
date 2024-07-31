@@ -21,3 +21,13 @@ Route::get('/MudancaSenha', function () {
 Route::get('/Cursos', function () {
     return view('courses');
 });
+Route::get('/Curso/{course}', function ($course) {
+
+    $titleCourse = "Curso $course";
+    $informCourse = "O curso de $course é uma curso com bastante empregabilidade";
+
+    return view('course', ['course' => $course, 'titleCourse' => $titleCourse, 'informCourse' => $informCourse]);
+});
+Route::get('/Pagamento', function () {
+    return view('check-out');
+});
