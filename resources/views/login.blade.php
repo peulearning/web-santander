@@ -59,9 +59,6 @@
             </div>
             </form>
         </section>
-        <section class="d-flex justify-content-center" id="msg-not-registration">
-        <p>Caso não esteja matriculado, <a href="/Registro" id="btn-registration">MATRICULE-SE</a></p>
-        </section> 
     </section>
     <script src="/js/script.js"></script>
     </body>

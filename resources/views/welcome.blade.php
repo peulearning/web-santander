@@ -30,7 +30,7 @@
           <h5 class="card-title">Curso 1</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
         </div>
-        <a href="/Registro"><button type="button" class="btn w-50" id="welc-btn-card">Matricule-se</button></a>
+        <a href="/Curso/1"><button type="button" class="btn w-50" id="welc-btn-card">Matricule-se</button></a>
       </div>
     </div>
     <div class="col">
@@ -40,7 +40,7 @@
           <h5 class="card-title">Curso 2</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
         </div>
-        <a href="/Registro"><button type="button" class="btn w-50" id="welc-btn-card">Matricule-se</button></a>
+        <a href="/Curso/2"><button type="button" class="btn w-50" id="welc-btn-card">Matricule-se</button></a>
       </div>
     </div>
     <div class="col">
@@ -50,7 +50,7 @@
           <h5 class="card-title">Curso 3</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
         </div>
-        <a href="/Registro"><button type="button" class="btn w-50" id="welc-btn-card">Matricule-se</button></a>
+        <a href="/Curso/3"><button type="button" class="btn w-50" id="welc-btn-card">Matricule-se</button></a>
       </div>
     </div>
     </div>

@@ -41,7 +41,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <a href="/Registro"><button type="button" class="btn w-70" id="welc-btn-card">Saiba mais</button></a>
+                <a href="/Curso/1"><button type="button" class="btn w-70" id="welc-btn-card">Saiba mais</button></a>
             </div>
             <div class="col justify-content-center align-items-center d-flex">
                 <p id="value">Valor</p>
@@ -58,7 +58,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <a href="/Registro"><button type="button" class="btn w-70" id="welc-btn-card">Saiba mais</button></a>
+                <a href="/Curso/2"><button type="button" class="btn w-70" id="welc-btn-card">Saiba mais</button></a>
             </div>
             <div class="col justify-content-center align-items-center d-flex">
                 <p id="value">Valor</p>
@@ -75,7 +75,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <a href="/Registro"><button type="button" class="btn w-70" id="welc-btn-card">Saiba mais</button></a>
+                <a href="/Curso/3"><button type="button" class="btn w-70" id="welc-btn-card">Saiba mais</button></a>
             </div>
             <div class="col justify-content-center align-items-center d-flex">
                 <p id="value">Valor</p>
