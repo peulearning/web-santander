@@ -1,9 +1,12 @@
 <?php
-
 namespace Database\Seeders;
 
 use App\Models\User;
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Course;
+use App\Models\Enrollment;
+use App\Models\Payment;
+use App\Models\Notification;
+use App\Models\Feedback;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,11 +16,23 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+        // Cria 10 usuários fictícios
+        User::factory(10)->create();
+
+        // Cria 5 cursos fictícios
+        Course::factory(5)->create();
+
+        // Cria 15 matrículas fictícias
+        Enrollment::factory(15)->create();
+
+        // Cria 10 pagamentos fictícios
+        Payment::factory(10)->create();
+
+        // Cria 20 notificações fictícias
+        Notification::factory(20)->create();
+
+        // Cria 15 feedbacks fictícios
+        Feedback::factory(15)->create();
     }
-}
+};
