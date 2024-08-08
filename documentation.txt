@@ -1,0 +1,160 @@
+Documentação do Projeto
+
+Projeto: Plataforma para Cursos Santander
+
+Desenvolvedora: Berry Company
+Cliente: Santander
+
+Autores: @Marciênio(https://github.com/MarcienioDev) & @Pedro(https://github.com/peulearning)
+
+1. Descrição do Projeto
+Este projeto é uma plataforma para cursos desenvolvida pela Berry Company para o Santander. A plataforma permite que os usuários se matriculem em cursos, acompanhem seu progresso, façam pagamentos e interajam com o conteúdo do curso.
+
+2. Estrutura do Projeto
+
+Frontend:
+
+Framework: Laravel (PHP)
+Versão: 8.x ou superior
+
+Funcionalidades: Sistema de rotas, controllers, views, e gerenciamento de dados com Eloquent ORM.
+
+Banco de Dados:
+Sistema de Gerenciamento: MySQL Versão: 5.7 ou superior
+
+Objetivo: Armazenar e gerenciar dados da aplicação, incluindo usuários, cursos, matrículas, pagamentos, notificações e feedbacks.
+
+Infraestrutura:
+Containerização: Docker
+Objetivo: Isolar e gerenciar ambientes de desenvolvimento e produção, garantindo consistência e facilidade de configuração.
+
+Componentes:
+Docker Compose: Utilizado para definir e gerenciar serviços multi-contêiner, incluindo o banco de dados MySQL.
+Dockerfile: Arquivo de configuração para construir a imagem do contêiner da aplicação Laravel.
+Configuração e Deployment:
+
+Ambiente de Desenvolvimento: Localmente via Docker para simular o ambiente de produção e facilitar o desenvolvimento.
+Ambiente de Produção: Pode ser configurado para execução em servidores com suporte a Docker.
+
+Funcionalidades:
+
+Tela de Captação: Front-end inicial para captação de usuários.
+Tela Inicial: Página inicial da plataforma.
+Dashboard (Aluno): Visão geral dos cursos matriculados, progresso do curso e notificações.
+Tela de Perfil do Usuário: Informações pessoais, configurações de conta e histórico de cursos.
+Tela de Navegação de Cursos: Lista de cursos disponíveis, filtros e categorias.
+Tela de Detalhes do Curso: Descrição do curso, conteúdo e avaliações.
+Tela de Aula/Conteúdo do Curso: Vídeos, materiais complementares e quizzes.
+Tela de Progresso e Avaliação: Progresso detalhado, notas e avaliações.
+Tela de Certificação: Certificados dos cursos concluídos e opção para download.
+Tela de Suporte e Ajuda: FAQ, contato para suporte e fóruns de discussão.
+Tela de Administração: Gerenciamento de usuários, cursos e relatórios.
+Tela de Pagamento: Planos de assinatura, histórico de pagamentos e opções de pagamento.
+
+3. Models e Migrations
+
+Models:
+
+User: Representa os usuários da plataforma.
+Course: Representa os cursos disponíveis.
+Enrollment: Representa as matrículas de usuários em cursos.
+Payment: Representa os pagamentos realizados pelos usuários.
+Notification: Representa as notificações enviadas aos usuários.
+Feedback: Representa os feedbacks dados pelos usuários sobre os cursos.
+Migrations:
+
+create_users_table
+create_courses_table
+create_enrollments_table
+create_payments_table
+create_notifications_table
+create_feedbacks_table
+
+4. Factories
+
+UserFactory: Gera dados fictícios para usuários.
+CourseFactory: Gera dados fictícios para cursos.
+EnrollmentFactory: Gera dados fictícios para matrículas.
+PaymentFactory: Gera dados fictícios para pagamentos.
+NotificationFactory: Gera dados fictícios para notificações.
+FeedbackFactory: Gera dados fictícios para feedbacks.
+
+5. Seeders
+
+Cria um usuário específico para teste.
+Cria 10 usuários fictícios.
+Cria 5 cursos fictícios.
+Cria 15 matrículas fictícias.
+Cria 10 pagamentos fictícios.
+Cria 20 notificações fictícias.
+Cria 15 feedbacks fictícios.
+
+6. Controllers
+
+UserController: Gerencia as operações relacionadas a usuários.
+CourseController: Gerencia as operações relacionadas a cursos.
+EnrollmentController: Gerencia as operações relacionadas a matrículas.
+PaymentController: Gerencia as operações relacionadas a pagamentos.
+NotificationController: Gerencia as operações relacionadas a notificações.
+FeedbackController: Gerencia as operações relacionadas a feedbacks.
+
+7. Routes
+Web Routes: Definem as rotas para as páginas web da aplicação.
+API Routes: Definem as rotas para as APIs da aplicação.
+
+8. Service Providers
+
+AppServiceProvider: Configura serviços e bootstraps da aplicação.
+
+9. Comandos Importantes ( Utilizados )
+
+Rodar Migrations:
+php artisan migrate
+
+Rodar Seeders:
+php artisan db:seed
+
+Rodar Migrations e Seeders Juntos:
+php artisan migrate:fresh --seed
+
+Iniciar o Servidor de Desenvolvimento:
+php artisan serve
+
+Criar um Novo Controller:
+php artisan make:controller NomeDoController
+
+Criar uma Nova Migration:
+php artisan make:migration nome_da_migration
+
+Criar uma Nova Factory:
+php artisan make:factory NomeDaFactory --model=NomeDoModelo
+
+Criar um Novo Seeder:
+php artisan make:seeder NomeDoSeeder
+
+10. Configuração do Ambiente
+Arquivo .env: Configurações do ambiente do Laravel, incluindo conexão com o banco de dados e outras variáveis de ambiente.
+Exemplo de Configuração do .env:
+
+.env
+APP_NAME=Laravel
+APP_ENV=local
+APP_KEY=base64:YOUR_APP_KEY
+APP_DEBUG=true
+APP_URL=http://localhost
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nome_do_banco
+DB_USERNAME=usuario
+DB_PASSWORD=senha
+
+Configuração do Banco de Dados:
+Altere as variáveis DB_DATABASE, DB_USERNAME e DB_PASSWORD para corresponder às suas configurações de banco de dados MySQL.
+
+11. Requisitos
+PHP: Versão 7.4 ou superior.
+Composer: Gerenciador de pacotes PHP.
+MySQL: Versão 5.7 ou superior.
+Laravel: Versão 8.x ou superior.
