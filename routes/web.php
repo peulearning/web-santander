@@ -31,3 +31,9 @@ Route::get('/Curso/{course}', function ($course) {
 Route::get('/Pagamento', function () {
     return view('check-out');
 });
+Route::get('/Aluno', function () {
+
+    $nome = "Marciênio";
+
+    return view('dashboard', ['nome' => $nome]);
+});
